@@ -11,28 +11,29 @@ require("./config/passport.config");
 
 const app = express();
 
-/*require("./config/session.config")(app);
+// require("./config/session.config")(app);
+require("./config/session.config")
 
-app.use(express.urlencoded({ extended: false }));
+// app.use(express.urlencoded({ extended: false }));
 
 app.use(logger("dev"));
 app.use(passport.initialize());
-app.use(passport.session());*/
+app.use(passport.session());
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 hbs.registerPartials(__dirname + "/views/partials");
 app.use(express.static("public"));
-/*
-app.use((req, res, next) => {
-  res.locals.currentUser = req.user;
 
-  next()
-})
+// app.use((req, res, next) => {
+//   res.locals.currentUser = req.user;
+
+//   next()
+// })
 
 // Routes
 const routes = require("./config/routes");
 app.use("/", routes);
-*/
+
 // Error handler
 app.use((req, res, next) => {
   next(createError(404));

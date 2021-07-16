@@ -1,3 +1,10 @@
+*{
+    font-family: 'Bitter', serif;
+}
+
 .color-navb {
     background-color: darkolivegreen !important;
+}
+body{
+    background-color: #d4efdf 
 }
