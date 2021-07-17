@@ -16,9 +16,9 @@ require("./config/session.config")
 
 // app.use(express.urlencoded({ extended: false }));
 
-app.use(logger("dev"));
-app.use(passport.initialize());
-app.use(passport.session());
+// app.use(logger("dev"));
+// app.use(passport.initialize());
+// app.use(passport.session());
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 hbs.registerPartials(__dirname + "/views/partials");
