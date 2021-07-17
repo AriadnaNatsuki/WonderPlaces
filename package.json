@@ -22,7 +22,8 @@
   },
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon -e hbs,ccs,js app.js"
+    "dev": "nodemon -e hbs,ccs,js app.js",
+    "seeds": "node bin/seeds.js"
   },
   "repository": {
     "type": "git",

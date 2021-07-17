@@ -37,7 +37,7 @@
         "coordinates": "",
         "city": "A Coruña",
         "element": "Air",
-        "petfriendly": "",
+        "petfriendly": false,
         "veganoptions": false
     },
     {
@@ -52,8 +52,8 @@
         "coordinates":"" ,
         "city": "Granada",
         "element": "Air",
-        "petfriendly": "",
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions":false
     },
     {
         
@@ -68,8 +68,8 @@
         "coordinates":"" ,
         "city": "Madrid",
         "element": "Air",
-        "petfriendly": "undefined",
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions":false
     },
     {
         "id": "5",
@@ -83,8 +83,8 @@
         "coordinates": "",
         "city": "Maldivas",
         "element": "Water",
-        "petfriendly": "",
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions":false
     },
     {
         "id": "6",
@@ -98,8 +98,8 @@
         "coordinates": "",
         "city": "Queensland",
         "element": "Water",
-        "petfriendly": "",
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions":false
     },
     {
         "id": "7",
@@ -113,8 +113,8 @@
         "coordinates":"" ,
         "city": "Bali",
         "element": "Water",
-        "petfriendly":"" ,
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions":false
     },
     {
         "id": "8",
@@ -128,8 +128,8 @@
         "coordinates":"" ,
         "city": "Västerås",
         "element": "Water",
-        "petfriendly": "",
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions":false
     },
     {
         "id": "9",
@@ -143,8 +143,8 @@
         "coordinates": "",
         "city": "Zanzíbar",
         "element": "Water",
-        "petfriendly":"" ,
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "10",
@@ -163,8 +163,8 @@
         "coordinates": "295120.09,4058739.28",
         "city": "Málaga",
         "element": "Earth",
-        "petfriendly": "",
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions":false
     },
     {
         "id": "11",
@@ -178,8 +178,8 @@
         "coordinates": "",
         "city": "Cuzco",
         "element": "Air",
-        "petfriendly":"" ,
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "12",
@@ -193,8 +193,8 @@
         "coordinates": "",
         "city": "Vancouver Island",
         "element": "Air",
-        "petfriendly": "",
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions":false
     },
     {
         "id": "13",
@@ -208,8 +208,8 @@
         "coordinates": "",
         "city": "Girona",
         "element": "Earth",
-        "petfriendly": "",
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions":false
     },
     {
         "id": "14",
@@ -223,12 +223,12 @@
         "coordinates": "",
         "city": "Bizcaia",
         "element": "Air",
-        "petfriendly": "",
-        "veganoptions": true
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
-        "id":"" ,
-        "name": "",
+        "id":"15" ,
+        "name": "Pepito",
         "images": [],
         "price": "",
         "capacity":"" ,
@@ -238,7 +238,7 @@
         "coordinates":"" ,
         "city": "",
         "element": "",
-        "petfriendly": "",
-        "veganoptions":""
+        "petfriendly": false,
+        "veganoptions":false
     }
 ]
