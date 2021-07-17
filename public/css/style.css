@@ -4,9 +4,23 @@
 }
 
 .color-navb {
+   
     background-color: darkolivegreen !important;
+  
     
 }
-body{
-    background-color: #d4efdf 
+body {
+    background-color: #d4efdf;ç
+}
+
+video { 
+    display: block;
+    margin: auto;
+    margin-top: -130px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+
 }
