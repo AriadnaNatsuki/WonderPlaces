@@ -21,8 +21,8 @@
         "coordinates": "37.325099, -3.452421",
         "city": "Granada",
         "element": "Air",
-        "pet-friendly": false,
-        "vegan-options": true
+        "petfriendly": false,
+        "veganoptions": true
     },
     {
         "id": "2",
@@ -32,13 +32,14 @@
         "capacity": 3,
         "description": "Habitación con cama de matrimonio, tres grandes ventanales orientados hacia monte pindo y ézaro, hacia el faro y hacia el cabo. Baño completo con enorme plato de ducha, secador de pelo, espejo de aumento, productos de acogida. Smart TV, cafetera de cortesía, minibar, caja fuerte para portatil, teléfono, wifi free",
         "services": [],
-        "activities": ["Centro de interpretación de aves"
+        "activities": [
+            "Centro de interpretación de aves"
         ],
         "coordinates": "",
         "city": "A Coruña",
         "element": "Air",
-        "pet-friendly": "",
-        "vegan-options": false
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "3",
@@ -49,14 +50,13 @@
         "description": "",
         "services": [],
         "activities": "",
-        "coordinates":"" ,
+        "coordinates": "",
         "city": "Granada",
         "element": "Air",
-        "pet-friendly": "",
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
-        
         "id": "4",
         "name": "Cabañas en los árboles Monte Holidays",
         "images": [],
@@ -64,18 +64,18 @@
         "capacity": "",
         "description": "",
         "services": [],
-        "activities":"" ,
-        "coordinates":"" ,
+        "activities": "",
+        "coordinates": "",
         "city": "Madrid",
         "element": "Air",
-        "pet-friendly": "undefined",
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "5",
         "name": "Hilton's Conrad Rangali Island Resort",
         "images": [],
-        "price":"" ,
+        "price": "",
         "capacity": 9,
         "description": "",
         "services": [],
@@ -83,8 +83,8 @@
         "coordinates": "",
         "city": "Maldivas",
         "element": "Water",
-        "pet-friendly": "",
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "6",
@@ -98,8 +98,8 @@
         "coordinates": "",
         "city": "Queensland",
         "element": "Water",
-        "pet-friendly": "",
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "7",
@@ -109,12 +109,12 @@
         "capacity": "",
         "description": "",
         "services": [],
-        "activities":"" ,
-        "coordinates":"" ,
+        "activities": "",
+        "coordinates": "",
         "city": "Bali",
         "element": "Water",
-        "pet-friendly":"" ,
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "8",
@@ -125,11 +125,11 @@
         "description": "",
         "services": [],
         "activities": "",
-        "coordinates":"" ,
+        "coordinates": "",
         "city": "Västerås",
         "element": "Water",
-        "pet-friendly": "",
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "9",
@@ -143,8 +143,8 @@
         "coordinates": "",
         "city": "Zanzíbar",
         "element": "Water",
-        "pet-friendly":"" ,
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "10",
@@ -163,8 +163,8 @@
         "coordinates": "295120.09,4058739.28",
         "city": "Málaga",
         "element": "Earth",
-        "pet-friendly": "",
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "11",
@@ -178,8 +178,8 @@
         "coordinates": "",
         "city": "Cuzco",
         "element": "Air",
-        "pet-friendly":"" ,
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "12",
@@ -193,8 +193,8 @@
         "coordinates": "",
         "city": "Vancouver Island",
         "element": "Air",
-        "pet-friendly": "",
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "13",
@@ -202,43 +202,46 @@
         "images": [],
         "price": 330,
         "capacity": 4,
-        "description":"" ,
+        "description": "",
         "services": [],
         "activities": "",
         "coordinates": "",
         "city": "Girona",
         "element": "Earth",
-        "pet-friendly": "",
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
         "id": "14",
         "name": "Zuhaitz Etxeak",
         "images": [],
-        "price":"" ,
+        "price": "",
         "capacity": "",
         "description": "",
         "services": [],
-        "activities":["Paseo por el Hayedo de Otzarreta","SPA y sauna finlandesa de construcción propia en maderas no tratadas"] ,
+        "activities": [
+            "Paseo por el Hayedo de Otzarreta",
+            "SPA y sauna finlandesa de construcción propia en maderas no tratadas"
+        ],
         "coordinates": "",
         "city": "Bizcaia",
         "element": "Air",
-        "pet-friendly": "",
-        "vegan-options": true
+        "petfriendly": false,
+        "veganoptions": false
     },
     {
-        "id":"" ,
-        "name": "",
+        "id": "15",
+        "name": "Pepito",
         "images": [],
         "price": "",
-        "capacity":"" ,
-        "description":"" ,
+        "capacity": "",
+        "description": "",
         "services": [],
         "activities": "",
-        "coordinates":"" ,
+        "coordinates": "",
         "city": "",
         "element": "",
-        "pet-friendly": "",
-        "vegan-options":""
+        "petfriendly": false,
+        "veganoptions": false
     }
 ]
