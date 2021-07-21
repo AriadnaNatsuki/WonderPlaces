@@ -7,6 +7,9 @@ const Place = require('../models/Place.model')
 //const UserModel = require('../models/User.model')
 //Nos traemos los datos del json
 const places = require('../places.json')
+// const http = axios.create({
+//     baseURL: 'htpp://localhost:8000'
+// })
 //const users = require('../users.json')
 
 require('../config/db.config')
