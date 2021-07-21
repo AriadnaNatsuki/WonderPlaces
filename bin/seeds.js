@@ -1,4 +1,3 @@
-
 //Script que metera las semillas (seeds) en nuestra BD
 //Si lo ejecutamos nos rellene la BD solo
 console.log("hello from seeds")

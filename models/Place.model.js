@@ -36,7 +36,7 @@ const userSchema = new mongoose.Schema(
         },
         veganoptions: {
             type: Boolean
-        }
+        } 
     },
     {
         timestamps: true
