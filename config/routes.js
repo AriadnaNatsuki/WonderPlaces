@@ -12,4 +12,17 @@ router.post('/register', authController.doRegister);
 router.get('/login', authController.login);
 router.post('/login', authController.doLogin);
 
+//Alojamientos
+router.get('/alojamientos', authController.alojamientos);
+//router.post('/alojamientos', authController.doAlojamientos);
+
+//Favoritos
+router.get('/favoritos', authController.favoritos);
+//router.post('/favoritos', authController.doFavoritos);
+
+//Perfil
+router.get('/perfil', authController.perfil);
+//router.post('/perfil', authController.doPerfil);
+
 module.exports = router;
+

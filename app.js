@@ -11,7 +11,7 @@ require("./config/passport.config");
 
 const app = express();
 
-// require("./config/session.config")(app);
+//require("./config/session.config")(app);
 require("./config/session.config")
 
 app.use(express.urlencoded({ extended: false }));
