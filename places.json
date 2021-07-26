@@ -54,7 +54,7 @@
         "city": "Granada",
         "element": "Air",
         "petfriendly": false,
-        "veganoptions": false
+        "veganoptions":false
     },
     {
         "id": "4",
@@ -69,7 +69,7 @@
         "city": "Madrid",
         "element": "Air",
         "petfriendly": false,
-        "veganoptions": false
+        "veganoptions":false
     },
     {
         "id": "5",
@@ -114,7 +114,7 @@
         "city": "Bali",
         "element": "Water",
         "petfriendly": false,
-        "veganoptions": false
+        "veganoptions":false
     },
     {
         "id": "8",
@@ -129,7 +129,7 @@
         "city": "Västerås",
         "element": "Water",
         "petfriendly": false,
-        "veganoptions": false
+        "veganoptions":false
     },
     {
         "id": "9",

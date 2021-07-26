@@ -24,3 +24,13 @@ h1 {
     margin-top: 50px;
 
 }
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+   
+  }
+  
+ 
