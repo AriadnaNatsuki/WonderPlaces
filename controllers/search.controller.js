@@ -6,3 +6,4 @@ module.exports.search = (req, res, next) => {
     const place=places.find((s)=>s.city===city)
     res.render("alojamientos",place)
 }
+
