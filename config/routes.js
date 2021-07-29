@@ -1,11 +1,11 @@
 const router = require('express').Router();
 const miscController = require('../controllers/misc.controller');
 const authController = require('../controllers/auth.controller');
-const searchController = require('../controllers/search.controller');
+
 
 router.get('/', miscController.index);
 //Barra busqueda alojamientos
-router.get('/:city',searchController.search)
+//router.get('/:city',searchController.search)
 
 // Register
 router.get('/register', authController.register);
