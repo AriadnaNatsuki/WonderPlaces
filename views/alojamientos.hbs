@@ -4,9 +4,12 @@
     <div class="card">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Nombre: {{place.name}}</h5>
-        <p class="card-text">{{place.description}}</p>
-        <button type="button" class="btn btn-outline-success">Info</button>
+        <h5 class="card-title">{{place.name}}</h5>
+        <p class="card-text">Capacidad:{{place.capacity}}personas</p>
+        <p class="card-text">Precio:{{place.price}} €</p>
+        <form method="get" action="/info">
+        <button type="submit" value="{{place.id}}" class="btn btn-outline-success">Info</button>
+        </form>
       </div>
     </div>
     {{/each}}
