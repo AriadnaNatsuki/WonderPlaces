@@ -2,6 +2,7 @@ const router = require('express').Router();
 const miscController = require('../controllers/misc.controller');
 const authController = require('../controllers/auth.controller');
 const searchController = require('../controllers/search.controller');
+const infoController = require('../controllers/info.controller');
 router.get('/', miscController.index);
 
 // Register

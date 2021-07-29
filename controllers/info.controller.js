@@ -9,8 +9,9 @@ const mongoose = require("mongoose");
 // module.exports.search = (req, res, next) => {
 //     function
 // }
-const {placeId}=req.params.id
+
 module.exports.info = (req, res, next) => {
+    const { placeId } = req.params.id
     Place.findById(placeId)
         .then(place => {
             console.log(places, "********")
