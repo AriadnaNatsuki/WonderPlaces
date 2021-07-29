@@ -1,0 +1,19 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  {{#each places as |place|}}
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{place.name}}</h5>
+        <p class="card-text">Capacidad:{{place.capacity}}personas</p>
+        <p class="card-text">Servicios:{{place.services}}</p>
+          <p class="card-text">Actividades:{{place.activities}}</p>
+        <p class="card-text">Precio:{{place.price}} €</p>
+        <form method="get" action="/info">
+        <button type="submit" value="{{place.id}}" class="btn btn-outline-success">Info</button>
+        </form>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  
