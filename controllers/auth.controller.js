@@ -6,6 +6,19 @@ module.exports.register = (req, res, next) => {
   res.render("auth/register")
 }
 
+module.exports.alojamientos = (req, res, next) => {
+  res.render("alojamientos")
+}
+
+module.exports.favoritos = (req, res, next) => {
+  res.render("favoritos")
+}
+
+module.exports.perfil = (req, res, next) => {
+  res.render("perfil")
+}
+
+
 module.exports.doRegister = (req, res, next) => {
   // Comprobar que no existe un usuario con el mismo email
 

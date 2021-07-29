@@ -32,7 +32,8 @@
         "capacity": 3,
         "description": "Habitación con cama de matrimonio, tres grandes ventanales orientados hacia monte pindo y ézaro, hacia el faro y hacia el cabo. Baño completo con enorme plato de ducha, secador de pelo, espejo de aumento, productos de acogida. Smart TV, cafetera de cortesía, minibar, caja fuerte para portatil, teléfono, wifi free",
         "services": [],
-        "activities": ["Centro de interpretación de aves"
+        "activities": [
+            "Centro de interpretación de aves"
         ],
         "coordinates": "",
         "city": "A Coruña",
@@ -49,14 +50,13 @@
         "description": "",
         "services": [],
         "activities": "",
-        "coordinates":"" ,
+        "coordinates": "",
         "city": "Granada",
         "element": "Air",
         "petfriendly": false,
         "veganoptions":false
     },
     {
-        
         "id": "4",
         "name": "Cabañas en los árboles Monte Holidays",
         "images": [],
@@ -64,8 +64,8 @@
         "capacity": "",
         "description": "",
         "services": [],
-        "activities":"" ,
-        "coordinates":"" ,
+        "activities": "",
+        "coordinates": "",
         "city": "Madrid",
         "element": "Air",
         "petfriendly": false,
@@ -75,7 +75,7 @@
         "id": "5",
         "name": "Hilton's Conrad Rangali Island Resort",
         "images": [],
-        "price":"" ,
+        "price": "",
         "capacity": 9,
         "description": "",
         "services": [],
@@ -84,7 +84,7 @@
         "city": "Maldivas",
         "element": "Water",
         "petfriendly": false,
-        "veganoptions":false
+        "veganoptions": false
     },
     {
         "id": "6",
@@ -99,7 +99,7 @@
         "city": "Queensland",
         "element": "Water",
         "petfriendly": false,
-        "veganoptions":false
+        "veganoptions": false
     },
     {
         "id": "7",
@@ -109,8 +109,8 @@
         "capacity": "",
         "description": "",
         "services": [],
-        "activities":"" ,
-        "coordinates":"" ,
+        "activities": "",
+        "coordinates": "",
         "city": "Bali",
         "element": "Water",
         "petfriendly": false,
@@ -125,7 +125,7 @@
         "description": "",
         "services": [],
         "activities": "",
-        "coordinates":"" ,
+        "coordinates": "",
         "city": "Västerås",
         "element": "Water",
         "petfriendly": false,
@@ -164,7 +164,7 @@
         "city": "Málaga",
         "element": "Earth",
         "petfriendly": false,
-        "veganoptions":false
+        "veganoptions": false
     },
     {
         "id": "11",
@@ -194,7 +194,7 @@
         "city": "Vancouver Island",
         "element": "Air",
         "petfriendly": false,
-        "veganoptions":false
+        "veganoptions": false
     },
     {
         "id": "13",
@@ -202,24 +202,27 @@
         "images": [],
         "price": 330,
         "capacity": 4,
-        "description":"" ,
+        "description": "",
         "services": [],
         "activities": "",
         "coordinates": "",
         "city": "Girona",
         "element": "Earth",
         "petfriendly": false,
-        "veganoptions":false
+        "veganoptions": false
     },
     {
         "id": "14",
         "name": "Zuhaitz Etxeak",
         "images": [],
-        "price":"" ,
+        "price": "",
         "capacity": "",
         "description": "",
         "services": [],
-        "activities":["Paseo por el Hayedo de Otzarreta","SPA y sauna finlandesa de construcción propia en maderas no tratadas"] ,
+        "activities": [
+            "Paseo por el Hayedo de Otzarreta",
+            "SPA y sauna finlandesa de construcción propia en maderas no tratadas"
+        ],
         "coordinates": "",
         "city": "Bizcaia",
         "element": "Air",
@@ -227,18 +230,18 @@
         "veganoptions": false
     },
     {
-        "id":"15" ,
+        "id": "15",
         "name": "Pepito",
         "images": [],
         "price": "",
-        "capacity":"" ,
-        "description":"" ,
+        "capacity": "",
+        "description": "",
         "services": [],
         "activities": "",
-        "coordinates":"" ,
+        "coordinates": "",
         "city": "",
         "element": "",
         "petfriendly": false,
-        "veganoptions":false
+        "veganoptions": false
     }
 ]
