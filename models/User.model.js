@@ -18,12 +18,20 @@ const userSchema = new mongoose.Schema(
             type: String,
             required: [true, "Password is required"],
             minlength: [8, "Password is too short"]
-        }
-    },
+        },
+        imgPath: {
+            type: String,
+            default: 'https://res.cloudinary.com/di76jljny/image/upload/v1625748116/360_F_410437733_hdq4Q3QOH9uwh0mcqAhRFzOKfrCR24Ta_ptk3pp.jpg'
+          },
+          imgName: {
+            type: String,
+            default: 'default-user-pic'
+          });
+    }
     {
         timestamps: true
     }
-)
+    
 
 userSchema.pre("save", function (next) {
     if (this.isModified("password")) {
@@ -42,6 +50,17 @@ userSchema.methods.checkPassword = function (passwordToCheck) {
 }
 
 const User = mongoose.model("User", userSchema);
+
+const loginCheck = () => {
+    return (req, res, next) => {
+      if (req.session.user) {
+        next();
+      } else {
+        res.redirect('/login');
+      }
+    }
+  };
+  
 
 
 

@@ -1,0 +1,30 @@
+<div class="title">
+  <h2>Profile</h2>
+</div>
+{{#with user}}
+
+<div id="container">
+  <h3>Welcome, {{name}}!</h3>
+
+  <h4>Personal information</h4>
+  
+  
+  <ul id="memberCard">
+    <img src="{{imgPath}}" alt="{{imgName}}" width="200" height="200"> 
+
+    <div id="userInfo">
+      <li>Name: {{name}}</li>
+      <li>Username: {{username}}</li>
+      <li>Interests:
+          {{#each interests}}
+            <ul>
+                <li>{{this}}</li>
+            </ul>
+          {{/each}}
+          <a href="/profile/edit">Edit your Information</a>
+      </li>
+    </div>
+  </ul>
+  
+
+</div>

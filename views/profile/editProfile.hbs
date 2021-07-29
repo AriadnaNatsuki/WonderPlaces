@@ -1,0 +1,16 @@
+{{#with user}}
+<div id="container">
+  <h2>Edit your profile</h2>
+
+  <form action="/profile/edit" method="POST" enctype="multipart/form-data">
+
+      <label for="name">Change your Name:</label>
+      <input type="text" name="name" id="name" value="{{name}}">
+      
+      <label for="profile-pic">Change your Profile Picture: </label>
+      <img src="{{imgPath}}" alt="{{publicId}}" width="200" height="200">
+      <input type="file" name="profile-pic" id="profile-pic">
+
+      <button type="submit" id="signupButton" class="btn btn-sm authbttn" style="background-color: #A8DE98; border-color: #A8DE98; color: white" data-toggle="button" aria-pressed="false" autocomplete="off">Accept changes</button>
+  </form>
+</div>
