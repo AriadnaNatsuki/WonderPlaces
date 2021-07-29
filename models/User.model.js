@@ -26,11 +26,11 @@ const userSchema = new mongoose.Schema(
           imgName: {
             type: String,
             default: 'default-user-pic'
-          });
-    }
+          }
+    },
     {
         timestamps: true
-    }
+  })
     
 
 userSchema.pre("save", function (next) {
