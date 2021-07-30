@@ -18,6 +18,19 @@ const userSchema = new mongoose.Schema(
             type: String,
             required: [true, "Password is required"],
             minlength: [8, "Password is too short"]
+        },
+        active: {
+            type: Boolean,
+            default: false
+        },
+        activationToken: {
+            type: String,
+            default: () => {
+              return Math.random().toString(36).substring(7) +
+              Math.random().toString(36).substring(7) +
+              Math.random().toString(36).substring(7) +
+              Math.random().toString(36).substring(7)
+            }
         }
     },
     {
