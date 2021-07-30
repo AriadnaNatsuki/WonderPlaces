@@ -16,10 +16,6 @@ router.post('/login', authController.doLogin);
 router.get('/alojamientos', searchController.search);
 //router.post('/alojamientos', authController.doAlojamientos);
 
-//Favoritos
-router.get('/favoritos', authController.favoritos);
-//router.post('/favoritos', authController.doFavoritos);
-
 //Perfil
 router.get('/perfil', authController.perfil);
 //router.post('/perfil', authController.doPerfil);
