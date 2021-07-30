@@ -12,7 +12,7 @@ const mongoose = require("mongoose");
 
 module.exports.info = (req, res, next) => {
     const { placeId } = req.params.id
-    Place.findById(placeId)
+    Place.find(placeId)
         .then(place => {
             console.log(places, "********")
             res.render("info", { place })

@@ -9,7 +9,7 @@
         <p class="card-text">Servicios:{{place.services}}</p>
           <p class="card-text">Actividades:{{place.activities}}</p>
         <p class="card-text">Precio:{{place.price}} €</p>
-        <form method="get" action="/info">
+        <form method="get" action="/info/:placeId">
         <button type="submit" value="{{place.id}}" class="btn btn-outline-success">Info</button>
         </form>
       </div>
