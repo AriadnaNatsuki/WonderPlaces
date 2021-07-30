@@ -20,5 +20,6 @@ router.get('/alojamientos', searchController.search);
 router.get('/perfil', authController.perfil);
 //router.post('/perfil', authController.doPerfil);
 
+
 module.exports = router;
 
