@@ -18,7 +18,7 @@ router.get('/alojamientos', searchController.search);
 //router.post('/alojamientos', authController.doAlojamientos);
 
 //+ Info
-router.get('/info/:id',infoController.info)
+router.get('/info/:placeId',infoController.info)
 
 //Favoritos
 router.get('/favoritos', authController.favoritos);

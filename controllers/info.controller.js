@@ -11,10 +11,10 @@ const mongoose = require("mongoose");
 // }
 
 module.exports.info = (req, res, next) => {
-    const { placeId } = req.params.id
+    const { placeId } = req.place.id
     Place.find(placeId)
         .then(place => {
-            console.log(places, "********")
+            console.log(place, "********")
             res.render("info", { place })
         })
         .catch(error => {

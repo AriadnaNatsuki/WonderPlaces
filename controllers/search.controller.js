@@ -12,7 +12,7 @@ const mongoose = require("mongoose");
 module.exports.search = (req, res, next) => {
     Place.find({})
         .then(places => {
-            console.log(places, "********")
+            // console.log(places, "********")
             res.render("alojamientos", { places })
         })
         .catch(error => {
