@@ -11,7 +11,7 @@ const mongoose = require("mongoose");
 // }
 
 module.exports.info = (req, res, next) => {
-    const { placeId } = req.place.id
+    const { placeId } = req.params
     Place.find(placeId)
         .then(place => {
             console.log(place, "********")
