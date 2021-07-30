@@ -10,7 +10,7 @@
         <p class="card-text">Capacidad:{{place.capacity}}personas</p>
         <p class="card-text">Precio:{{place.price}} €</p>
         <form method="get" action="/info">
-        <button type="submit" value="{{place.id}}" class="btn btn-outline-success">Info</button>
+          <a href="/info/{{place.id}}" class="btn btn-outline-success">Info</a>
         </form>
       </div>
     </div>
