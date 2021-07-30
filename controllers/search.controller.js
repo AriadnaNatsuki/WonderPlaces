@@ -1,14 +1,7 @@
 const Place=require("../models/Place.model")
 const mongoose = require("mongoose");
 
-// module.exports.search = (req, res, next) => {
-//     const city = req.params.city
-//     const places=places.find((s)=>s.city===city)
-//     res.render("alojamientos",places)
-// }
-// module.exports.search = (req, res, next) => {
-//     function
-// }
+
 module.exports.search = (req, res, next) => {
     Place.find({})
         .then(places => {
@@ -19,5 +12,5 @@ module.exports.search = (req, res, next) => {
             console.log(error)
             
         })
-}
+
 
