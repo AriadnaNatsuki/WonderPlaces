@@ -10,10 +10,6 @@ module.exports.alojamientos = (req, res, next) => {
   res.render("alojamientos")
 }
 
-module.exports.favoritos = (req, res, next) => {
-  res.render("favoritos")
-}
-
 module.exports.perfil = (req, res, next) => {
   res.render("perfil")
 }

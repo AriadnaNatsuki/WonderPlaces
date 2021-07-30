@@ -1,62 +1,21 @@
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
+
+<div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->  
+  {{#each places as |place|}}
+    <div class="row">
+     <div class="card auto">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <button type="button" class="btn btn-outline-success">Info</button>
+        <h5 class="card-title">{{place.name}}</h5>
+        <p class="card-text">Capacidad:{{place.capacity}}personas</p>
+        <p class="card-text">Precio:{{place.price}} €</p>
+        <form method="get" action="/info">
+        <button type="submit" value="{{place.id}}" class="btn btn-outline-success">Info</button>
+        </form>
       </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <button type="button" class="btn btn-outline-success">Info</button>
-      </div>
     </div>
+    {{/each}}
   </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        <button type="button" class="btn btn-outline-success">Info</button>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <button type="button" class="btn btn-outline-success">Info</button>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <button type="button" class="btn btn-outline-success">Info</button>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <button type="button" class="btn btn-outline-success">Info</button>
-      </div>
-    </div>
-  </div>
-</div>
+
+  

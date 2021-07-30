@@ -23,7 +23,7 @@ app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 hbs.registerPartials(__dirname + "/views/partials");
 app.use(express.static("public"));
-
+app.use(logger("dev"))
 // app.use((req, res, next) => {
 //   res.locals.currentUser = req.user;
 

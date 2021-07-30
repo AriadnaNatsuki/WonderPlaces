@@ -4,8 +4,6 @@ const authController = require('../controllers/auth.controller');
 const searchController = require('../controllers/search.controller');
 
 router.get('/', miscController.index);
-//Barra busqueda alojamientos
-router.get('/:city',searchController.search)
 
 // Register
 router.get('/register', authController.register);
@@ -16,12 +14,10 @@ router.get('/login', authController.login);
 router.post('/login', authController.doLogin);
 
 //Alojamientos
-router.get('/alojamientos', authController.alojamientos);
+
+router.get('/alojamientos', searchController.search);
 //router.post('/alojamientos', authController.doAlojamientos);
 
-//Favoritos
-router.get('/favoritos', authController.favoritos);
-//router.post('/favoritos', authController.doFavoritos);
 
 //Perfil
 router.get('/perfil', authController.perfil);
