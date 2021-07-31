@@ -6,6 +6,20 @@
       <div class="card-body">
         <h5 class="card-title">{{name}}</h5>
         <p class="card-text">Capacidad:{{capacity}}personas</p>
+        <ul>
+          <li>Servicios: {{place.services}}</li>
+          <li>Actividades: {{place.activities}}</li>
+        </ul>
+            {{#if place.veganoptions}}
+            Opciones veganas: SI
+            {{else}}
+            Opciones veganas: NO
+            {{/if}}
+              {{#if place.petfriendly}}
+              Petfriendly: SI
+              {{else}}
+             Petfriendly: NO
+              {{/if}}
         <p class="card-text">Servicios:{{services}}</p>
           <p class="card-text">Actividades:{{activities}}</p>
         <p class="card-text">Precio:{{price}} €</p>
