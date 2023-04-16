@@ -231,17 +231,17 @@
     },
     {
         "id": "15",
-        "name": "Pepito",
+        "name": "Boat Haus",
         "images": [],
-        "price": "",
+        "price": 100,
         "capacity": "",
-        "description": "",
+        "description": "Casas flotantes equipadas con cocina, baño y terraza con hamaca y tumbonas. Ubicadas en el Puerto deportivo Alcaidesa Marina, con vistas al peñón de Gibraltar",
         "services": [],
         "activities": "",
         "coordinates": "",
-        "city": "",
-        "element": "",
-        "petfriendly": false,
+        "city": "Cádiz",
+        "element": "Water",
+        "petfriendly": true,
         "veganoptions": false
     }
 ]
