@@ -46,13 +46,13 @@ module.exports.doRegister = (req, res, next) => {
 module.exports.login = (req, res, next) => {
   res.render("auth/login");
 }
-
+//Controlador doLogin para autentificarnos con estrategia local (introduccion de email y contraseña manual)
 module.exports.doLogin = (req, res, next) => {
   passport.authenticate('local-auth', (error, user, validations) => {
     if (error) {
       next(error);
     } else if (!user) {
-      res.render("auth/login", { user: req.body, errorMessage: validations.error })
+      res.status(400).render("auth/login", { user: req.body, errorMessage: validations.error })
     } else {
       req.login(user, (loginErr) => {
         if (loginErr) {
@@ -64,7 +64,24 @@ module.exports.doLogin = (req, res, next) => {
     }
   })(req, res, next)
 }
-
+//Controlador doLogin para autentificarnos con estrategia google (email y password rescatada de cuenta google)
+module.exports.doLoginGoogle=(req,res,next)=>{
+  passport.authenticate('google-auth', (error, user, validations) => {
+    if (error) {
+      next(error);
+    } else if (!user) {
+      res.status(400).render("auth/login", { user: req.body, errorMessage: validations.error })
+    } else {
+      req.login(user, (loginErr) => {
+        if (loginErr) {
+          next(loginErr)
+        } else {
+          res.redirect('/')
+        }
+      })
+    }
+  })(req, res, next)
+}
 module.exports.activateAccount = (req, res, next) => {
   const token = req.params.token;
 

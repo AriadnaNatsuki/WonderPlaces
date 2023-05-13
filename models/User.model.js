@@ -31,11 +31,20 @@ const userSchema = new mongoose.Schema(
               Math.random().toString(36).substring(7) +
               Math.random().toString(36).substring(7)
             }
-        }
+        },
+        image:{
+            type:String,       
+        },
+        googleID: {
+            type:String,
+
+        },
     },
-    {
-        timestamps: true
-    }
+    
+        {
+            timestamps: true
+          }
+    
 )
 
 userSchema.pre("save", function (next) {
