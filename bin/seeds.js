@@ -20,7 +20,7 @@ mongoose.connection.once('connected', () => {
         .then(() => {
             console.log('Database cleared')
             //Recibe un array de lo que tiene que guardar con el formato modelo Movie
-            return Place.insertMany(places)
+            return Place.Many(places)
         })
         .then((placesCreated) => console.log(`${placesCreated.length} have been created`))
         .catch(e => console.error('Error disconencting from DB', e))
